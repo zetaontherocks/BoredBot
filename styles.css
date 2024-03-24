@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: flex;
+}
+
+ #container{
+    border: 2px solid black;
+    height: 300px;
+    margin: auto;
+    width: 50%;
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+    background: linear-gradient(to left, #5c6f81, #bdc3c7);
+    border-radius: 50px;
+    transition: background ease-out;
+}
+
+#title{
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    animation: 3s infinite alternate slidein;
+
+}
+
+#activity-name{
+    text-align: center;
+    height: 100px;
+    color: black;
+    margin-top: 50px;
+}
+
+#btn{
+    margin: auto;
+    border-radius: 500px;
+    font-size: 30px;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    background-color: lightyellow;
+}
+
+#btn:hover{
+    background-color: yellow;
+}
+
